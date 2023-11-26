@@ -24,8 +24,8 @@ app.get("/posts/:id", getPostById);
 app.post("/posts",createPost);
 
 
-export {app}
 
-// app.listen("8000", () => console.log("server running...."));
+
+app.listen("8000", () => console.log("server running...."));
 
 
