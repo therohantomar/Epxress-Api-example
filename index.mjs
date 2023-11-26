@@ -7,7 +7,7 @@ import { createPost } from "./controllers/createPost.mjs";
 
 
 //app initialized
-const app = express();
+export const app = express();
 
 
 //middleware
@@ -26,3 +26,5 @@ app.post("/posts",createPost);
 
 
 app.listen("8000", () => console.log("server running...."));
+
+

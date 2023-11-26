@@ -1,4 +1,4 @@
 
 {
-    "rewrites": [{ "source": "index.mjs", "destination": "index.mjs" }]
-  }
+    "rewrites": [{ "source": "./api/index.mjs", "destination": "./api/index.mjs" }]
+}
