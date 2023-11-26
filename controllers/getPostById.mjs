@@ -7,7 +7,7 @@ export const getPostById = async (req, res) => {
     const id = req.params.id;
 
     // Find the post by ID in the database
-    const post = await Posts.findOne({ id });
+    const post = await Posts.findById( id );
 
     // Check if the post exists
     if (!post) {
